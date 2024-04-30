@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.card {
+    background-color: #00e492;
+    width: 530px;
+    height: 400px;
+    margin: 40px auto;
+    border-radius: 8px;
+    line-height: 60px;
+}
+
+.heading {
+    font-size: 50px;
+    line-height: 50px;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.body {
+    /* margin: 60px auto; */
+    padding: 85px 40px;
+}
+
+.para {
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 200;
+    font-size: 8x;
+}
+
+.btn {
+    padding: 15px 45px;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+}
